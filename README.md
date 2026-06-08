@@ -26,6 +26,10 @@ Spam messages are a major issue in digital communication. This project builds a 
 ## Result
 Achieved 97.8% accuracy on test data.
 
+## Accuracy Improvement 
+
+After improving the functionality of the code the accuracy is now improved to 98.39%
+
 ## How to Run
 1. Clone this repository
 2. Install dependencies: pip install -r requirements.txt
@@ -38,3 +42,9 @@ spam-classifier/
 ├── spam.csv
 ├── requirements.txt
 └── README.md
+
+## Future Enhancements
+In the future, I plan to improve this project by:
+- Adding text preprocessing steps (like removing punctuation, stop words, and applying stemming).
+- Comparing the Naive Bayes model against other algorithms like Logistic Regression or Support Vector Machines (SVM).
+- Building a simple web interface using **Streamlit** to give the project a visual frontend UI.
